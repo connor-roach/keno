@@ -39,9 +39,9 @@ public class keno {
 		System.out.println("How many spots? (Min of 4, Max of 10)");
 		int spots = Integer.parseInt(scn.nextLine());	
 	
-		System.out.println("How much to bet per spot?");
+		System.out.println("How much to bet?");
 	       	int bet = Integer.parseInt(scn.nextLine());
-		wallet = wallet - bet*spots;	
+		wallet = wallet - bet;	
 		int[] playerNums = new int[spots];
 		
 		//Player chooses random numbers or their own picks
