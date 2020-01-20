@@ -53,6 +53,7 @@ public class keno {
 			for(int i = 0; i < spots; i++){
 				playerNums[i] = scn.nextInt();
 			}
+			scn.nextLine();
 			System.out.println("Got it. Playing these numbers: " 
 					+ Arrays.toString(playerNums));
 		}
